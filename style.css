@@ -1,0 +1,115 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.imgbox {
+  width: 400px;
+  height: 330px;
+  margin: 20px;
+  position: relative;
+  overflow: hidden;
+  float:left;
+}
+.imgbox_med {
+  width: 600px;
+  height: 400px;
+}
+.imgbox_sq {
+  width: 400px;
+  height: 460px;
+}
+.imgbox_short {
+  width: 400px;
+  height: 290px;
+}
+.imgbox p {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 1em;
+}
+svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.imgbox svg line.bottom {
+  stroke-width: 2;
+  stroke: #000;
+  fill: none;
+  stroke-dasharray: 400;
+  -webkit-transition: -webkit-transform .5s ease-out;
+  transition: transform .5s ease-out;
+}
+.imgbox:hover svg line.bottom {
+  -webkit-transform: translateX(400px);
+  transform: translateX(400px);
+}
+.imgbox_med svg line.bottom {
+  stroke-width: 2;
+  stroke: #000;
+  fill: none;
+  stroke-dasharray: 600;
+  -webkit-transition: -webkit-transform .5s ease-out;
+  transition: transform .5s ease-out;
+}
+.imgbox_med:hover svg line.bottom {
+  -webkit-transform: translateX(600px);
+  transform: translateX(600px);
+}
+/*.imgbox_sq svg line.bottom {
+  stroke-width: 2;
+  stroke: #000;
+  fill: none;
+  stroke-dasharray: 400;
+  -webkit-transition: -webkit-transform .5s ease-out;
+  transition: transform .5s ease-out;
+}
+.imgbox_sq:hover svg line.bottom {
+  -webkit-transform: translateX(400px);
+  transform: translateX(400px);
+}*/
+
+/******************** Images ***********************/
+.pic1 {
+  background: url("images/pic.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.pic2 {
+  background: url("images/pic-2.jpg");
+ background-repeat: no-repeat;
+ background-size: contain; 
+}
+.pic3 {
+  background: url("images/pic-3.jpg");
+ background-repeat: no-repeat;
+ background-size: contain; 
+}
+.pic4 {
+  background: url("images/pic-4.jpg");
+ background-repeat: no-repeat;
+ background-size: contain; 
+}
+.pic5 {
+  background: url("images/pic-5.jpg");
+ background-repeat: no-repeat;
+ background-size: contain; 
+}
+.pic12 {
+  background: url("images/pic-12.jpg");
+ background-repeat: no-repeat;
+ background-size: contain; 
+}
+
+
+
